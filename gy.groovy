@@ -48,8 +48,8 @@ BasicDBObject whereQuery = new BasicDBObject();
 
     if (cursor.hasNext()) {
        // log.info(cursor.next())
-      	println cursor.next()
+      	return cursor.next()
     }else{
-        println "not fount"
+        return "not fount"
     }
 	
